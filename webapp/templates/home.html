@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Bookings{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <h1 class="text-center mt-4 mb-4">My Bookings</h1>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Start Time</th>
+          <th>End Time</th>
+          <th>Date</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for booking in user.bookings | sort(attribute='reserved_date') %}
+          <tr>
+            <td>{{ booking.start_time }}</td>
+            <td>{{ booking.end_time }}</td>
+            <td>{{ booking.reserved_date }}</td>
+            <td>
+              <button 
+              class="btn btn-danger" 
+              onclick="deleteBooking('{{ booking.id }}')">Cancel</button>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
