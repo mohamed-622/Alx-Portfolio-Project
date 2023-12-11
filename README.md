@@ -1,6 +1,6 @@
 # PitchBooking
 <p align="center">
-  <img src="https://imgur.com/a/dbn70v1"></img>
+  <img src="[https://imgur.com/a/dbn70v1](https://i.imgur.com/fQzuyNG.png)"></img>
 <br />
 </p>
 
