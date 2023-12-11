@@ -1,9 +1,14 @@
 # PitchBooking
 
-PitchBooking is a web application that allows users to book time slots for a local stadium. It simplifies the process of reserving slots for sports or events.
+<a href="https://pitchbooking.globalmohamed.tech">
+    <img src="https://imgur.com/a/dbn70v1" alt="pitchbooking" title="Landing">
+</a>
+
+[PitchBooking](https://pitchbooking.globalmohamed.tech) is a web application that allows users to book time slots for a local stadium. It simplifies the process of reserving slots for sports or events.
 
 ## Table of Contents
-
+- [The Story](#how-it-started)
+- [The Story In Slides](#project-presentation)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
@@ -12,6 +17,28 @@ PitchBooking is a web application that allows users to book time slots for a loc
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+## How It Started
+#### Inspiration
+
+The idea for PitchBooking emerged from the daily struggles of needing to physically be present or inquire through messaging apps for available time slots at local stadiums. The frustration sparked the vision for a user-friendly platform that streamlines the booking process, making it more accessible and efficient for sports enthusiasts.
+This web application aims to simplify the process of booking local stadiums, providing a convenient platform for users to check availability, make reservations, and manage their bookings effortlessly.
+
+#### Technical Challenges
+
+While not the most technically complex application, PitchBooking presented unique challenges. Implementing features like a date picker (flatpickr) and handling available time slots required thoughtful consideration. The README dives into the details of the chosen algorithms, technologies (Flask, SQLAlchemy, SQLite), and the decision-making process behind the architecture.
+
+#### Next Iteration
+
+###### Catering to the Urban Community
+Looking ahead, there's so much more to add to PitchBooking. I envision features that cater to the urban community of our city, making the platform an indispensable tool for anyone looking to book sports facilities.
+
+
+## Project Presentation
+
+For a more in-depth walkthrough of PitchBooking project, check out our presentation slides.
+
+- [PitchBooking Presentation](https://docs.google.com/presentation/d/1Ha-_6ky-etrXSaXxd1cyQOcZsSF6AURCxhPzyFQvQwM/edit?usp=sharing)
 
 ## Features
 
