@@ -1,10 +1,10 @@
 # PitchBooking
-
 <p align="center">
-  <a <img src="https://imgur.com/a/dbn70v1"></img></a>
-<br />[PitchBooking](https://pitchbooking.globalmohamed.tech) is a web application that allows users to book time slots for a local stadium. It simplifies the process of reserving slots for sports or events.
+  <img src="https://imgur.com/a/dbn70v1"></img>
+<br />
 </p>
 
+[PitchBooking](https://pitchbooking.globalmohamed.tech) is a web application that allows users to book time slots for a local stadium. It simplifies the process of reserving slots for sports or events.
 
 ## Table of Contents
 - [The Story](#how-it-started)
