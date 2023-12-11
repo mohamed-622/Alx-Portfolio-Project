@@ -1,8 +1,9 @@
 from . import db
 from flask_login import UserMixin
-
+"""Models for Flask app."""
 
 class Booking(db.Model):
+    """Booking model."""
     id = db.Column(db.Integer, primary_key=True)
     start_time = db.Column(db.String(5), nullable=False)
     end_time = db.Column(db.String(5), nullable=False)
@@ -11,6 +12,7 @@ class Booking(db.Model):
 
 
 class User(db.Model, UserMixin):
+    """User model."""
     id = db.Column(db.Integer, primary_key=True)
     phone_number = db.Column(db.String(10), unique=True)
     password = db.Column(db.String(150))
