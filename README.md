@@ -131,7 +131,7 @@ Now, your project is set up within a virtual environment, and you can run it wit
 
 Your contributions to PitchBooking are highly valued! Whether it's fixing a bug, adding a new feature, or improving documentation, every bit helps make the project better.
 If you'd like to contribute, please fork the repository and create a new branch. Pull requests are welcome.
-#####Contributions Welcome:
+##### Contributions Welcome:
 - Bug Fixes: Help identify and fix bugs.
 - New Features: Have an idea for a feature? Feel free to add it or suggest it.
 - Documentation: Improvements or clarifications? Great!
